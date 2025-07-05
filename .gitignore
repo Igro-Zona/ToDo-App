@@ -1,0 +1,27 @@
+# Maven target directory
+/target/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Java class files
+*.class
+
+# IDE files
+*.iml
+.idea/
+
+# Database related files
+*.sql
+*.db-shm
+*.db-wal
+
+# Text files
+*.txt
