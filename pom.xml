@@ -47,7 +47,7 @@
           <execution>
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.todo.Main</mainClass>
+              <mainClass>com.todo/com.todo.Main</mainClass>
             </configuration>
           </execution>
         </executions>
