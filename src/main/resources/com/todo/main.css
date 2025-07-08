@@ -1,0 +1,35 @@
+.main {
+  -fx-background-color: #00171f;
+}
+
+.container {
+  -fx-background-color: #003459;
+}
+
+.container__text-lg {
+  -fx-text-fill: #fff;
+  -fx-font-size: 54px;
+  -fx-font-weight: bold;
+}
+
+.container__text-sml {
+  -fx-font-size: 36px;
+  -fx-text-fill: #f3f2f2;
+}
+
+.container__button {
+  -fx-pref-width: 250px;
+  -fx-background-radius: 24px;
+  -fx-background-color: #077fa7;
+  -fx-border-width: 2px;
+  -fx-border-radius: 24px;
+  -fx-border-color: #628ba7;
+}
+
+.container__button:hover {
+  -fx-background-color: #038bb8;
+}
+
+.container__button:pressed {
+  -fx-background-color: #06799f;
+}
