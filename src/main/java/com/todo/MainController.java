@@ -1,11 +1,16 @@
 package com.todo;
 
-import javafx.fxml.FXML;
-
 public class MainController {
 
-    @FXML
-    private void initialize() {
+    public void startOnAction() {
+        try {
+            App.setRoot("login");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
+    public void exitOnAction() {
+        System.exit(0);
     }
 }
