@@ -1,0 +1,19 @@
+.todo {
+  -fx-border-width: 0;
+  -fx-padding: 0;
+  -fx-background-color: #f3f2f2;
+}
+
+.todo .split-pane-divider {
+  -fx-padding: 0;
+  -fx-cursor: initial;
+}
+
+.nav {
+  -fx-background-color: #003459;
+  -fx-background-radius: 24px;
+}
+
+.tasks {
+  -fx-background-color: #f3f2f2;
+}
