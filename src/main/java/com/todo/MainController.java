@@ -4,7 +4,7 @@ public class MainController {
 
     public void startOnAction() {
         try {
-            App.setRoot("login");
+            App.setRoot("todo");
         } catch (Exception e) {
             e.printStackTrace();
         }
